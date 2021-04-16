@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="CSS基础, Java后端开发">
+    <meta name="keywords" content="Tomcat &amp; Servlet &amp; HTTP, Java后端开发">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>CSS基础 | Shimmery&#39;s Blog</title>
+    <title>Tomcat &amp; Servlet &amp; HTTP | Shimmery&#39;s Blog</title>
     <link rel="icon" type="image/jpeg" href="/medias/111.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -248,12 +248,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">CSS基础</h1>
+                    <h1 class="description center-align post-title">Tomcat &amp; Servlet &amp; HTTP</h1>
                 </div>
             </div>
         </div>
@@ -369,12 +369,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                                <span class="chip bg-color">前端</span>
+                            <a href="/tags/JavaEE/">
+                                <span class="chip bg-color">JavaEE</span>
                             </a>
                         
-                            <a href="/tags/CSS/">
-                                <span class="chip bg-color">CSS</span>
+                            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                                <span class="chip bg-color">计算机网络</span>
                             </a>
                         
                     </div>
@@ -385,8 +385,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" class="post-category">
-                                前端基础
+                            <a href="/categories/JavaEE/" class="post-category">
+                                JavaEE
                             </a>
                         
                     </div>
@@ -398,28 +398,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-21
+                    2021-04-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-04-16
+                    2021-04-17
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.4k
+                    2.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    11 分
                 </div>
                 
 
@@ -437,238 +437,352 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>CSS基础部分：基本语法、与HTML结合方式、选择器、常用标签属性</p>
+                <p>Tomcat &amp; Servlet &amp; HTTP</p>
 <a id="more"></a>
-<h1 id="CSS基础"><a href="#CSS基础" class="headerlink" title="CSS基础"></a>CSS基础</h1><h2 id="0-Introduction"><a href="#0-Introduction" class="headerlink" title="0. Introduction"></a>0. Introduction</h2><ul>
-<li><p><strong>CSS</strong>： Cascading Style Sheets(层叠样式表/级联样式表) ，描述了网页的布局。</p>
+
+
+<h1 id="Tomcat-amp-Servlet-amp-HTTP"><a href="#Tomcat-amp-Servlet-amp-HTTP" class="headerlink" title="Tomcat &amp; Servlet &amp; HTTP"></a>Tomcat &amp; Servlet &amp; HTTP</h1><h2 id="Chapter-1-Tomcat"><a href="#Chapter-1-Tomcat" class="headerlink" title="Chapter 1. Tomcat"></a>Chapter 1. Tomcat</h2><h3 id="1-1-常用的web服务器软件"><a href="#1-1-常用的web服务器软件" class="headerlink" title="1.1 常用的web服务器软件"></a>1.1 常用的web服务器软件</h3><ul>
+<li><p><strong>Apache</strong><br>Apache是世界使用排名第一的Web服务器软件。它可以运行在几乎所有广泛使用的计算机平台上。Apache源于NCSAhttpd服务器，经过多次修改，成为世界上最流行的Web服务器软件之一。Apache取自”a patchy server”的读音，意思是充满补丁的服务器，因为它是自由软件，所以不断有人来为它开发新的功能、新的特性、修改原来的缺陷。Apache的特点是简单、速度快、性能稳定，并可做代理服务器来使用。</p>
+<p>特点就是处理php页面，如果需要执行php的内容过多可以采用apache，如果静态内容多可以用nginx。</p>
 </li>
-<li><p><strong>基本语法</strong>：</p>
+<li><p><strong>Nginx</strong><br>Nginx不仅是一个小巧且高效的HTTP服务器，也可以做一个高效的负载均衡反向代理，通过它接受用户的请求并分发到多个Mongrel进程可以极大提高Rails应用的并发能力。</p>
+</li>
+<li><p><strong>Tomcat</strong><br>Tomcat是Apache 软件基金会（Apache Software Foundation）的Jakarta 项目中的一个核心项目，由Apache、Sun 和其他一些公司及个人共同开发而成。由于有了Sun 的参与和支持，最新的Servlet 和JSP 规范总是能在Tomcat 中得到体现。因为Tomcat 技术先进、性能稳定，而且免费，因而深受Java 爱好者的喜爱并得到了部分软件开发商的认可，成为目前比较流行的Web 应用服务器。</p>
+</li>
+<li><p><strong>WebLogic</strong></p>
+<p>BEA WebLogic是用于开发、集成、部署和管理大型分布式Web应用、网络应用和数据库应用的Java应用服务器。将Java的动态功能和Java Enterprise标准的安全性引入大型网络应用的开发、集成、部署和管理之中。 BEA WebLogic Server拥有处理关键Web应用系统问题所需的性能、可扩展性和高可用性。</p>
+</li>
+</ul>
+<h3 id="1-2-Tomcat使用"><a href="#1-2-Tomcat使用" class="headerlink" title="1.2 Tomcat使用"></a>1.2 Tomcat使用</h3><ul>
+<li><p>下载：<a target="_blank" rel="noopener" href="http://tomcat.apache.org/">http://tomcat.apache.org/</a></p>
+</li>
+<li><p>安装：解压压缩包即可</p>
+</li>
+<li><p>目录分析：</p>
 <ul>
-<li><p>格式:</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">选择器</span><span class="token punctuation">&#123;</span>
-    <span class="token property">key1</span><span class="token punctuation">:</span>value1<span class="token punctuation">;</span>
-    <span class="token property">key2</span><span class="token punctuation">:</span>value2<span class="token punctuation">;</span>
-    ...
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li><p>注释:<code>/* */</code></p>
-</li>
+<li>bin：可执行文件</li>
+<li>conf： config 配置文件</li>
+<li>lib： library 依赖jar包</li>
+<li>logs：日志文件</li>
+<li>temp：临时文件</li>
+<li>webapps：存放web项目</li>
+<li>work：存放运行时数据</li>
 </ul>
 </li>
+<li><p>启动服务器：在bin目录下打开<code>startup.bat</code>文件</p>
+</li>
+<li><p>关闭服务器：在bin目录下打开<code>shutdown.bat</code>文件或者在<code>startup.bat</code>下Ctrl+C</p>
+</li>
 </ul>
-<h2 id="1-CSS与HTML的结合方式"><a href="#1-CSS与HTML的结合方式" class="headerlink" title="1. CSS与HTML的结合方式"></a>1. CSS与HTML的结合方式</h2><h3 id="1-1-内联样式"><a href="#1-1-内联样式" class="headerlink" title="1.1 内联样式"></a>1.1 内联样式</h3><ul>
-<li>在标签的style属性中设置”key:value”，从而改变标签的样式。</li>
-</ul>
-<p>eg:</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token style-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token style language-css"><span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>test!!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="1-3-Tomcat配置"><a href="#1-3-Tomcat配置" class="headerlink" title="1.3 Tomcat配置"></a>1.3 Tomcat配置</h3><ul>
+<li><p>Tomcat部署项目的方式</p>
 <ul>
-<li>缺点:代码重复度高,不适合用于实际开发环境中</li>
+<li><p>1.将项目放在webapps目录下即可。（一般来说将项目压缩成war包，再将war包放到webapps目录中，会自动解压）</p>
+</li>
+<li><p>2.配置conf文件夹中的server.xml文件，在<code>&lt;Host&gt;</code>标签体中配置</p>
+<p><code>&lt;Context docBase=&quot;指定Web应用的根目录&quot; path=&quot;指定访问该Web应用的URL入口&quot; /&gt;</code></p>
+</li>
+<li><p>3.在<code>conf\Catalina\localhost</code>文件夹中创建以虚拟目录为名称的xml文件配置</p>
+<p><code>&lt;Context docBase=&quot;指定Web应用的根目录&quot; /&gt;</code></p>
+</li>
 </ul>
-<h3 id="1-2-内部样式"><a href="#1-2-内部样式" class="headerlink" title="1.2 内部样式"></a>1.2 内部样式</h3><ul>
-<li>在<code>&lt;head&gt;&lt;/head&gt;</code>标签中使用style标签来定义自己需要的CSS样式。</li>
+</li>
 </ul>
-<p>eg:</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
-    <span class="token selector">p</span><span class="token punctuation">&#123;</span>
-        <span class="token property">color</span><span class="token punctuation">:</span>green<span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="1-4-Tomcat端口号问题"><a href="#1-4-Tomcat端口号问题" class="headerlink" title="1.4 Tomcat端口号问题"></a>1.4 Tomcat端口号问题</h3><ul>
+<li><p>Tomcat的默认端口号为8080;如果使用一个Tomcat服务器,一般会将Tomcat的端口号修改为80，因为80端口号是HTTP协议的默认端口号，在访问时就可以不用输入端口号即可完成访问.</p>
+</li>
+<li><p><strong>修改Tomcat端口号</strong></p>
 <ul>
-<li>缺点:只能在同一页面复用代码，不能在多个页面中复用CSS代码，难以维护。</li>
-</ul>
-<h3 id="1-3-外部样式"><a href="#1-3-外部样式" class="headerlink" title="1.3 外部样式"></a>1.3 外部样式</h3><ul>
-<li><p>在<code>&lt;head&gt;&lt;/head&gt;</code>标签中通过<code>&lt;link&gt;</code>标签引入CSS样式文件。</p>
+<li><p>1.打开conf文件夹中的servel.xml文件</p>
 </li>
-<li><p><code>&lt;link&gt;</code>标签属性:</p>
+<li><p>2.修改1：</p>
+<p>原:</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Connector</span> <span class="token attr-name">port</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8080<span class="token punctuation">"</span></span> <span class="token attr-name">protocol</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>HTTP/1.1<span class="token punctuation">"</span></span>
+           <span class="token attr-name">connectionTimeout</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>20000<span class="token punctuation">"</span></span>
+           <span class="token attr-name">redirectPort</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8443<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>将port中的数值改成新的端口号(如果不需要同时使用两个tomcat服务器,仅仅改变此即可,否则必须全部改变)</p>
+</li>
+</ul>
 <ul>
-<li>rel(relationship)：规定链接类型,指当前文档与被链接文档之间的关系。在与CSS结合时使用stylesheet这个属性值。</li>
-<li>type:：指定所连接文档的MIME类型，css的MIME是type/css,一般使用type=”text/css”。</li>
-<li>href：定义资源的链接 URL。内容为一个绝对URL链接或者是相对URL。</li>
+<li><p>3.修改2：</p>
+<p>原:</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Connector</span> <span class="token attr-name">port</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8009<span class="token punctuation">"</span></span> <span class="token attr-name">protocol</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>AJP/1.3<span class="token punctuation">"</span></span> <span class="token attr-name">redirectPort</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8443<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>将port中的数值改成别的</p>
+</li>
+<li><p>4.修改3：</p>
+<p>原:</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Server</span> <span class="token attr-name">port</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8005<span class="token punctuation">"</span></span> <span class="token attr-name">shutdown</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>SHUTDOWN<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>将port中的数值改成别的</p>
+</li>
 </ul>
 </li>
 </ul>
-<p>eg：</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">p</span><span class="token punctuation">&#123;</span>
-    <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./style.css<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>test!!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="2-CSS选择器"><a href="#2-CSS选择器" class="headerlink" title="2. CSS选择器"></a>2. CSS选择器</h2><h3 id="2-1-id选择器"><a href="#2-1-id选择器" class="headerlink" title="2.1 id选择器"></a>2.1 id选择器</h3><ul>
-<li>选择一个具体的id属性值的元素</li>
-<li>语法:<code>#id属性值&#123;&#125;</code> (注意id属性值不能以数字开头,且建议在html里id值唯一)</li>
+<h2 id="Chapter-2-Servlet"><a href="#Chapter-2-Servlet" class="headerlink" title="Chapter 2. Servlet"></a>Chapter 2. Servlet</h2><h3 id="2-1-概述"><a href="#2-1-概述" class="headerlink" title="2.1 概述"></a>2.1 概述</h3><ul>
+<li>Servlet: Server applet 即运行在服务器端的小程序</li>
+<li>Servlet是Java中的一个接口,定义了Java类被浏览器访问到服务器识别的规则.</li>
+<li>一般来说,我们自定义一个类实现Servlet接口,复写Servlet方法.</li>
 </ul>
-<p>eg:</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
-        <span class="token selector">#p02</span><span class="token punctuation">&#123;</span>
-            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-        <span class="token punctuation">&#125;</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p01<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test01<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p02<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test02<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="2-2-元素选择器"><a href="#2-2-元素选择器" class="headerlink" title="2.2 元素选择器"></a>2.2 元素选择器</h3><ul>
-<li>选择具有相同标签名称的选择器</li>
-</ul>
-<p>eg:</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
-        <span class="token selector">p</span><span class="token punctuation">&#123;</span>
-            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-        <span class="token punctuation">&#125;</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p01<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test01<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p02<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test02<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="2-3-类选择器"><a href="#2-3-类选择器" class="headerlink" title="2.3 类选择器"></a>2.3 类选择器</h3><ul>
-<li>选择具有相同class属性值的元素.</li>
-<li>语法:<code>.class属性值&#123;&#125;</code></li>
-</ul>
-<p>eg:</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
-        <span class="token selector">.p2</span><span class="token punctuation">&#123;</span>
-            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-        <span class="token punctuation">&#125;</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test01<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test02<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="2-4-组合选择器"><a href="#2-4-组合选择器" class="headerlink" title="2.4 组合选择器"></a>2.4 组合选择器</h3><ul>
-<li><p>格式:</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">选择器1,选择器2,...,选择器n</span><span class="token punctuation">&#123;</span>
-	<span class="token property">key</span><span class="token punctuation">:</span>value<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li>
-<li><p>使用组合选择器可以让多个选择器共同一段CSS样式代码。</p>
+<h3 id="2-2-Servlet的执行原理"><a href="#2-2-Servlet的执行原理" class="headerlink" title="2.2 Servlet的执行原理"></a>2.2 Servlet的执行原理</h3><ol>
+<li><p>服务器受到客户端的Request后,会解析Request URL路径,获取访问的Servlet路径</p>
 </li>
-</ul>
-<p>eg:</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
-        <span class="token selector">.p1,#p2</span><span class="token punctuation">&#123;</span>
-            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-        <span class="token punctuation">&#125;</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test01<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>test02<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="2-5-扩展选择器"><a href="#2-5-扩展选择器" class="headerlink" title="2.5 扩展选择器"></a>2.5 扩展选择器</h3><ul>
-<li><p>选择所有元素:<code> *&#123;&#125;</code> 使用*通配符</p>
+<li><p>查找Servlet的配置web.xml文件,是否有对应的<code>&lt;url-pattern&gt;</code>标签体内容</p>
 </li>
-<li><p>子选择器:筛选选择器1元素下的选择器2中的元素</p>
-<p>语法:<code>选择器1 选择器2 &#123;&#125;</code></p>
+<li><p>如果有对应的<code>&lt;url-pattern&gt;</code>标签体内容，会找到对应的<code>&lt;servlet-class&gt;</code>全类名</p>
 </li>
-<li><p>父选择器:筛选选择器2的父元素选择器1中的元素</p>
-<p>语法:<code>选择器1 &gt; 选择器2&#123;&#125;</code></p>
+<li><p>Tomcat会将class字节码文件加载到内存中,创建其对象</p>
 </li>
-<li><p>属性选择器:选择元素名称,key=value的元素</p>
-<p>语法:<code>元素名称[属性名=&quot;属性值&quot;]&#123;&#125;</code></p>
+<li><p>调用Servlet对象中的方法.</p>
 </li>
-<li><p>伪类选择器:选择一些特定状态的元素</p>
-<p>语法:<code>元素:状态&#123;&#125;</code></p>
+</ol>
+<h3 id="2-3-Servlet的配置"><a href="#2-3-Servlet的配置" class="headerlink" title="2.3 Servlet的配置"></a>2.3 Servlet的配置</h3><ul>
+<li><p>可以在web.xml文档中配置</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>web-app</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://xmlns.jcp.org/xml/ns/javaee<span class="token punctuation">"</span></span>
+         <span class="token attr-name"><span class="token namespace">xmlns:</span>xsi</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.w3.org/2001/XMLSchema-instance<span class="token punctuation">"</span></span>
+         <span class="token attr-name"><span class="token namespace">xsi:</span>schemaLocation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd<span class="token punctuation">"</span></span>
+         <span class="token attr-name">version</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>3.1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-name</span><span class="token punctuation">></span></span>demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-name</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-class</span><span class="token punctuation">></span></span>cn.shimmery.Applicaiton<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-class</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet</span><span class="token punctuation">></span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-mapping</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-name</span><span class="token punctuation">></span></span>demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-name</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>url-pattern</span><span class="token punctuation">></span></span>/demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>url-pattern</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-mapping</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>web-app</span><span class="token punctuation">></span></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>格式:</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-name</span><span class="token punctuation">></span></span>servlet名<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-name</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-class</span><span class="token punctuation">></span></span>类路径<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-class</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet</span><span class="token punctuation">></span></span>
+  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-mapping</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-name</span><span class="token punctuation">></span></span>servlet名<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-name</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>url-pattern</span><span class="token punctuation">></span></span>虚拟地址<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>url-pattern</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-mapping</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>也可以在定义servlet的实现类前加@Webservlet注解</p>
+<p>@Webservlet(“资源路径”)</p>
+<p>源码：</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">&#125;</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Documented</span>
+<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">WebServlet</span> <span class="token punctuation">&#123;</span>
+    <span class="token class-name">String</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token string">""</span><span class="token punctuation">;</span><span class="token comment">//相当于&lt;Servlet-name></span>
+
+    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span class="token comment">//代表urlPatterns()属性配置</span>
+
+    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">urlPatterns</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span class="token comment">//相当于&lt;url-pattern></span>
+
+    <span class="token keyword">int</span> <span class="token function">loadOnStartup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//相当于&lt;load-on-startup></span>
+
+    <span class="token class-name">WebInitParam</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">initParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">boolean</span> <span class="token function">asyncSupported</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">String</span> <span class="token function">smallIcon</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token string">""</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">String</span> <span class="token function">largeIcon</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token string">""</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">String</span> <span class="token function">description</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token string">""</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">String</span> <span class="token function">displayName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token string">""</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <blockquote>
-<p>状态:</p>
-<p>​    link:初始化状态</p>
-<p>​    visited:被访问过的状态</p>
-<p>​    active:正在访问的状态</p>
-<p>​    hover:鼠标悬浮状态</p>
+<p>一个Servlet可以定义多个访问路径:@Webservlet(“/a”,”/a1”,”/a2”)</p>
+<p>路径定义规则</p>
+<p>​    1./xxx:路径匹配</p>
+<p>​    2./xxx/xxx:多层路径</p>
+<p>​    3.*.do:扩展名匹配</p>
 </blockquote>
 </li>
 </ul>
-<h2 id="3-CSS常用属性"><a href="#3-CSS常用属性" class="headerlink" title="3. CSS常用属性"></a>3. CSS常用属性</h2><h3 id="3-1-字体文本"><a href="#3-1-字体文本" class="headerlink" title="3.1 字体文本"></a>3.1 字体文本</h3><ul>
-<li>font-size：字体大小</li>
-<li>color：文本颜色</li>
-<li>text-align：文本对齐方式</li>
-<li>line-height：行高</li>
-<li>opacity：不透明度 取值范围为0.0-1.0 值越低越透明</li>
-</ul>
-<h3 id="3-2-背景"><a href="#3-2-背景" class="headerlink" title="3.2 背景"></a>3.2 背景</h3><ul>
-<li><p>background-color：背景颜色</p>
+<h3 id="2-4-Servlet的生命周期"><a href="#2-4-Servlet的生命周期" class="headerlink" title="2.4 Servlet的生命周期"></a>2.4 Servlet的生命周期</h3><ul>
+<li><p>servlet的生命周期就是从servlet出现到销毁的全过程。主要分为以下几个阶段：<br><strong>加载类</strong>—&gt;<strong>实例化</strong>(为对象分配空间)—&gt;<strong>初始化</strong>(为对象的属性赋值)—&gt;<strong>请求处理</strong>(服务阶段)—&gt;<strong>销毁</strong></p>
 </li>
-<li><p>background-image：背景图片</p>
+<li><p>服务器启动时(web.xml中配置load-on-startup=1，默认为0)或者第一次请求该servlet时，就会初始化一个Servlet对象，也就是会执行初始化方法init(ServletConfig conf),该servlet对象去处理所有客户端请求，service(ServletRequest req,ServletResponse res)方法中执行，最后服务器关闭时，才会销毁这个servlet对象，执行destroy()方法。其中加载阶段无法观察，但是初始化、服务、销毁阶段是可以观察到的。</p>
+</li>
+<li><p>关于<code>load-on-startup</code>值的问题</p>
 <ul>
-<li>使用方式:<code>background-image:url(&quot;url&quot;);</code></li>
+<li>当load-on-startup的值为0时,在第一次请求该servlet即创建servlet对象(Default)</li>
+<li>当load-on-startup的值为1时,在服务器启动时即创建servlet对象</li>
 </ul>
 </li>
-<li><p>background-position:指定背景图像的位置</p>
+<li><p>Servlet的init方法只执行一次,说明一个servlet在内存中只存在一个对象，为单例的。</p>
 <ul>
-<li>eg:<code>background-position: right top</code></li>
+<li>在多个用户同时访问servlet时候可能会存在线程安全问题</li>
 </ul>
 </li>
-<li><p>background-attachment:指定背景图像是固定的(fixed)还是滚动的(scroll).</p>
-</li>
 </ul>
-<h3 id="3-3-边框"><a href="#3-3-边框" class="headerlink" title="3.3 边框"></a>3.3 边框</h3><ul>
-<li><p>border-width:边框宽度;可以将宽度设置为特定大小（以 px、pt、cm、em 计），也可以使用以下三个预定义值之一：thin、medium 或 thick.</p>
-</li>
-<li><p>border-style:边框样式;一般使用solid-定义实线边框;dotted-定义点线边框;dashed-定义虚线边框;double-定义双边框;none-定义无边框;</p>
-</li>
-<li><p>border-color:定义边框颜色</p>
-</li>
-<li><p>简写边框属性:border-width border-style(必须) border-color</p>
-<p>eg:<code>border: 10px solid red</code></p>
-</li>
-</ul>
-<h3 id="3-4-CSS盒子模型"><a href="#3-4-CSS盒子模型" class="headerlink" title="3.4 CSS盒子模型"></a>3.4 CSS盒子模型</h3><ul>
-<li><p>在CSS中可以使用盒子模型来控制每个块的布局</p>
-</li>
-<li><p>margin:外边距 以当前元素为参考向外的边距</p>
-</li>
-<li><p>padding:内边距 以当前元素为参考向内的边距</p>
+<h3 id="2-5-Servlet体系结构"><a href="#2-5-Servlet体系结构" class="headerlink" title="2.5 Servlet体系结构"></a>2.5 Servlet体系结构</h3><p>Servlet接口–&gt;GenericServlet抽象类–&gt;HttpServlet抽象类</p>
 <ul>
-<li>默认情况下设置内边距会影响整个盒子的大小</li>
-<li>如果想设置内边距且固定盒子的width/height属性，需使用<code>box-sizing: border-box; </code></li>
+<li>GenericServlet:将Servlet接口中的其他方法做了默认空实现，把service定义为抽象方法必须重写</li>
+<li>HttpServlet:封装了HTTP协议，简化操作，需要重写doGet和doPost方法.</li>
+</ul>
+<h2 id="Chapter3-HTTP"><a href="#Chapter3-HTTP" class="headerlink" title="Chapter3. HTTP"></a>Chapter3. HTTP</h2><h3 id="3-1-概述"><a href="#3-1-概述" class="headerlink" title="3.1 概述"></a>3.1 概述</h3><ul>
+<li><p><strong>HTTP</strong>：Hyper Text Transfer Protocol 超文本传输协议，定义了服务器与客户端通信时发送数据的格式</p>
+</li>
+<li><p><strong>特点</strong></p>
+<ul>
+<li>HTTP协议是基于TCP/IP的高级协议</li>
+<li>默认端口号为80</li>
+<li>基于请求/响应模型：一次请求对应一次响应</li>
+<li>无连接的：每次请求一次，释放一次连接。即每次连接只能处理一个请求</li>
+<li>无状态的：协议对于事务处理没有记忆能力，每次Request之间相互独立，不能交互数据</li>
 </ul>
 </li>
-<li><p>float:可设置浮动(left/right)，可以让多个块级元素显示在同一行。</p>
+<li><p>历史版本</p>
+<ul>
+<li>1.0 每一次请求响应都会建立新的connection</li>
+<li>1.1 支持复用连接</li>
+</ul>
 </li>
 </ul>
+<h3 id="3-2-Request消息格式"><a href="#3-2-Request消息格式" class="headerlink" title="3.2 Request消息格式"></a>3.2 Request消息格式</h3><ol>
+<li><p><strong>请求行</strong>：格式:<code>请求方式 请求URL 请求协议/版本</code></p>
+<p>eg:<code>GET /login.html HTTP/1.0</code></p>
+</li>
+<li><p><strong>请求头</strong>：客户端传输信息给服务器 格式:<code>请求头名:请求头值</code></p>
+<p>常见的请求头:</p>
+<ul>
+<li>User-Agent：浏览器传输给服务器使用浏览器的版本信息，用于解决浏览器兼容性问题</li>
+<li>Referer：传输给服务器请求的原路径，用于做防盗链和统计数据工作</li>
+</ul>
+</li>
+<li><p><strong>请求空行</strong>：用于分割请求头和请求体的空行</p>
+</li>
+<li><p><strong>请求体</strong>：封装POST请求消息的请求参数</p>
+</li>
+</ol>
+<ul>
+<li><p>字符串格式：</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">GET / HTTP/1.1
+Host: www.baidu.com
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not\"A\\Brand";v="99"
+sec-ch-ua-mobile: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://www.baidu.com/s?wd=init&amp;rsv_spt=1&amp;rsv_iqid=0x80fca67d00002d17&amp;issp=1&amp;f=8&amp;rsv_bp=1&amp;rsv_idx=2&amp;ie=utf-8&amp;tn=baiduhome_pg&amp;rsv_enter=1&amp;rsv_dl=tb&amp;rsv_sug3=4&amp;rsv_sug1=3&amp;rsv_sug7=100&amp;rsv_sug2=0&amp;rsv_btype=i&amp;inputT=663&amp;rsv_sug4=663
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="3-3-Response消息格式"><a href="#3-3-Response消息格式" class="headerlink" title="3.3 Response消息格式"></a>3.3 Response消息格式</h3></li>
+</ul>
+<h2 id="Chapter4-Request"><a href="#Chapter4-Request" class="headerlink" title="Chapter4. Request"></a>Chapter4. Request</h2><h3 id="4-1-Request体系结构"><a href="#4-1-Request体系结构" class="headerlink" title="4.1 Request体系结构"></a>4.1 Request体系结构</h3><p>ServletRequest接口–&gt;HttpServletRequest接口–&gt;org.apache.catalina.connector.RequestFacade实现类(Tomcat来创建)</p>
+<h3 id="4-2-Request获取方法"><a href="#4-2-Request获取方法" class="headerlink" title="4.2 Request获取方法"></a>4.2 Request获取方法</h3><ol>
+<li><p>获取请求消息数据</p>
+<ul>
+<li><p>获取请求行数据（对于 GET /demo/application?name=zhangsan HTTP/1.1)</p>
+<ol>
+<li><p>获取请求方式:GET</p>
+<ul>
+<li>String getMethod()</li>
+</ul>
+</li>
+<li><p>获取虚拟目录:/demo</p>
+<ul>
+<li>String getContextPath()</li>
+</ul>
+</li>
+<li><p>获取Servlet路径:/application</p>
+<ul>
+<li>String getServletPath()</li>
+</ul>
+</li>
+<li><p>获取get方式请求参数:name=zhangsan</p>
+<ul>
+<li>String getQueryString()</li>
+</ul>
+</li>
+<li><p>获取请求URL: /demo/application</p>
+<ul>
+<li><p>String getRequestURI(): /demo/application</p>
+</li>
+<li><p>StringBuffer getRequest URL(): <a target="_blank" rel="noopener" href="http://localhost/demo/application">http://localhost/demo/application</a></p>
+</li>
+<li><p>URL：统一资源定位符 带http://</p>
+</li>
+<li><p>URI：统一资源标识符</p>
+</li>
+</ul>
+</li>
+<li><p>获取协议和版本号 HTTP/1.1</p>
+<ul>
+<li>String getProtocol()</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>获取请求头数据</p>
+<ul>
+<li>String getHeader(String name):通过请求头的名称获取请求头的值</li>
+<li>Enumeration<String> getHeaderNames():获取所有请求头名称</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>关于Enumeration</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">Enumeration</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">E</span><span class="token punctuation">></span></span> <span class="token punctuation">&#123;</span>
+<span class="token comment">/**
+     * Tests if this enumeration contains more elements.
+     *
+     * @return  &lt;code>true&lt;/code> if and only if this enumeration object
+     *           contains at least one more element to provide;
+     *          &lt;code>false&lt;/code> otherwise.
+     */</span>
+<span class="token keyword">boolean</span> <span class="token function">hasMoreElements</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//判断是否包含元素</span>
+
+<span class="token comment">/**
+     * Returns the next element of this enumeration if this enumeration
+     * object has at least one more element to provide.
+     *
+     * @return     the next element of this enumeration.
+     * @exception  NoSuchElementException  if no more elements exist.
+     */</span>
+<span class="token class-name">E</span> <span class="token function">nextElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//获得下一个元素</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>遍历:</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Enumeration</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">></span></span> headerNames <span class="token operator">=</span> request<span class="token punctuation">.</span><span class="token function">getHeaderNames</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span><span class="token punctuation">(</span>headerNames<span class="token punctuation">.</span><span class="token function">hasMoreElements</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+    <span class="token class-name">String</span> s <span class="token operator">=</span> headerNames<span class="token punctuation">.</span><span class="token function">nextElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="3">
+<li>获取请求体数据</li>
+</ol>
+</blockquote>
+<ul>
+<li><p>BufferedReader getReader():获取字符输入流</p>
+</li>
+<li><p>ServletInputstream getInputstream:获取字节输入流</p>
+<p>再从输入流对象汇总获取请求体数据</p>
+</li>
+</ul>
+<h3 id="4-3-Request其他方法"><a href="#4-3-Request其他方法" class="headerlink" title="4.3 Request其他方法"></a>4.3 Request其他方法</h3><ol>
+<li><p>获取请求参数方法</p>
+<ul>
+<li>String getParameter(String name):根据参数名称获取参数值</li>
+<li>String[] getParameterValues(String name):根据参数名称获取参数值的数组</li>
+<li>Enumeration<String> getParameterNames():获取所有请求的参数名称封装到数组中</li>
+<li>Map&lt;String,String[]&gt; getParameterMap():获取所有参数的map集合</li>
+</ul>
+</li>
+<li><p>void setCharacterEncoding方法可设置字符集，在使用post方式请求时中文会乱码，必须先设置request的编码<code>request.setCharacterEncoding(&quot;utf-8&quot;);</code></p>
+</li>
+<li><p>请求转发:一种在服务器内部的资源跳转方式</p>
+</li>
+</ol>
 
                 
             </div>
@@ -695,7 +809,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/03/21/CSS/">http://example.com/2021/03/21/CSS/</a>
+                    <a href="http://example.com/2021/04/10/Tomcat&Servlet&HTTP/">http://example.com/2021/04/10/Tomcat&Servlet&HTTP/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -733,12 +847,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                                    <span class="chip bg-color">前端</span>
+                                <a href="/tags/JavaEE/">
+                                    <span class="chip bg-color">JavaEE</span>
                                 </a>
                             
-                                <a href="/tags/CSS/">
-                                    <span class="chip bg-color">CSS</span>
+                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                                    <span class="chip bg-color">计算机网络</span>
                                 </a>
                             
                         </div>
@@ -1050,9 +1164,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/04/10/Tomcat&Servlet&HTTP/">
                     <div class="card-image">
@@ -1070,9 +1185,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-10
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-10
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1085,6 +1200,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1107,19 +1223,19 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/03/21/HTML/">
+                <a href="/2021/03/21/CSS/">
                     <div class="card-image">
                         
                         
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/medias/featureimages/3.jpg" class="responsive-img" alt="HTML">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/medias/featureimages/1.jpg" class="responsive-img" alt="CSS基础">
                         
-                        <span class="card-title">HTML</span>
+                        <span class="card-title">CSS基础</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HTML:基本语法、常用标签等
+                            CSS基础部分：基本语法、与HTML结合方式、选择器、常用标签属性
                         
                     </div>
                     <div class="publish-info">
@@ -1141,12 +1257,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/HTML/">
-                        <span class="chip bg-color">HTML</span>
-                    </a>
-                    
                     <a href="/tags/%E5%89%8D%E7%AB%AF/">
                         <span class="chip bg-color">前端</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/">
+                        <span class="chip bg-color">CSS</span>
                     </a>
                     
                 </div>

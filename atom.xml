@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-16T15:48:41.754Z</updated>
+  <updated>2021-04-16T16:17:19.366Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tomcat &amp; Servlet &amp; HTTP</title>
+    <link href="http://example.com/2021/04/10/Tomcat&amp;Servlet&amp;HTTP/"/>
+    <id>http://example.com/2021/04/10/Tomcat&amp;Servlet&amp;HTTP/</id>
+    <published>2021-04-10T05:25:16.000Z</published>
+    <updated>2021-04-16T16:17:19.366Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Tomcat &amp;amp; Servlet &amp;amp; HTTP&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JavaEE" scheme="http://example.com/categories/JavaEE/"/>
+    
+    
+    <category term="JavaEE" scheme="http://example.com/tags/JavaEE/"/>
+    
+    <category term="计算机网络" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>CSS基础</title>
@@ -31,9 +52,9 @@
     <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
-    
     <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
     
   </entry>
   
@@ -52,9 +73,9 @@
     <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="HTML" scheme="http://example.com/tags/HTML/"/>
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
