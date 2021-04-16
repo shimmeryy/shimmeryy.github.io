@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shimmery&#39;s Blog</title>
+  
+  <subtitle>Shimmery&#39;s Blog</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-04-16T15:48:41.754Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Shimmery</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS基础</title>
+    <link href="http://example.com/2021/03/21/CSS/"/>
+    <id>http://example.com/2021/03/21/CSS/</id>
+    <published>2021-03-21T06:30:30.000Z</published>
+    <updated>2021-04-16T15:48:41.754Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;CSS基础部分：基本语法、与HTML结合方式、选择器、常用标签属性&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML</title>
+    <link href="http://example.com/2021/03/21/HTML/"/>
+    <id>http://example.com/2021/03/21/HTML/</id>
+    <published>2021-03-21T06:27:30.000Z</published>
+    <updated>2021-04-16T15:48:41.754Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;HTML:基本语法、常用标签等&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java反射机制与注解</title>
+    <link href="http://example.com/2021/03/07/Java%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6%E4%B8%8E%E6%B3%A8%E8%A7%A3/"/>
+    <id>http://example.com/2021/03/07/Java%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6%E4%B8%8E%E6%B3%A8%E8%A7%A3/</id>
+    <published>2021-03-07T14:36:36.000Z</published>
+    <updated>2021-04-16T15:48:41.755Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;JavaEE框架的核心-Java反射机制与注解&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="框架" scheme="http://example.com/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="反射" scheme="http://example.com/tags/%E5%8F%8D%E5%B0%84/"/>
+    
+    <category term="框架" scheme="http://example.com/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chem is try!</title>
+    <link href="http://example.com/2021/02/27/Chem%20is%20try!/"/>
+    <id>http://example.com/2021/02/27/Chem%20is%20try!/</id>
+    <published>2021-02-27T13:45:19.000Z</published>
+    <updated>2021-04-16T15:48:41.754Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;谨以此文纪念那段时光。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="回忆录" scheme="http://example.com/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    
+    
+    <category term="回忆录" scheme="http://example.com/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL笔记</title>
+    <link href="http://example.com/2021/02/14/MySQL%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2021/02/14/MySQL%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-02-14T08:55:16.000Z</published>
+    <updated>2021-04-16T15:48:41.755Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MySQL相关知识:SQL语句,增删改查,范式,视图,事务,索引…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DataBase" scheme="http://example.com/categories/DataBase/"/>
+    
+    
+    <category term="数据库" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL" scheme="http://example.com/tags/MySQL/"/>
+    
+    <category term="索引" scheme="http://example.com/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+    <category term="事务" scheme="http://example.com/tags/%E4%BA%8B%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摘抄</title>
+    <link href="http://example.com/2021/02/08/%E6%91%98%E6%8A%84/"/>
+    <id>http://example.com/2021/02/08/%E6%91%98%E6%8A%84/</id>
+    <published>2021-02-08T08:10:13.000Z</published>
+    <updated>2021-04-16T15:48:41.755Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Read More&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="http://example.com/categories/Diary/"/>
+    
+    
+    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于Hexo博客部署遇到的一些问题及解决办法</title>
+    <link href="http://example.com/2021/02/01/%E5%85%B3%E4%BA%8EHexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://example.com/2021/02/01/%E5%85%B3%E4%BA%8EHexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <published>2021-02-01T14:54:36.000Z</published>
+    <updated>2021-03-07T12:33:34.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Read More&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Problem" scheme="http://example.com/categories/Problem/"/>
+    
+    
+    <category term="常见问题" scheme="http://example.com/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaSE-从入门到入秃</title>
+    <link href="http://example.com/2021/01/15/JavaSE-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%A7%83/"/>
+    <id>http://example.com/2021/01/15/JavaSE-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%A7%83/</id>
+    <published>2021-01-15T08:20:36.000Z</published>
+    <updated>2021-03-07T12:34:30.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;JavaSE知识:面向对象,封装,继承,多态,抽象类和接口,匿名内部类,lambda表达式,泛型,包装类,异常处理机制,Collection,Map,反射,多线程,锁,IO流,NIO,函数式接口,JVM…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="http://example.com/categories/Java/"/>
+    
+    
+    <category term="Java基础" scheme="http://example.com/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="面向对象" scheme="http://example.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+    <category term="集合" scheme="http://example.com/tags/%E9%9B%86%E5%90%88/"/>
+    
+    <category term="多线程" scheme="http://example.com/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>

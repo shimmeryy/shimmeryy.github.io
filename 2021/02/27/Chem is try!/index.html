@@ -1,0 +1,1535 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Chem is try!, Java后端开发">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Chem is try! | Shimmery&#39;s Blog</title>
+    <link rel="icon" type="image/jpeg" href="/medias/111.jpg">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Shimmery's Blog" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/111.jpg" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Shimmery&#39;s Blog</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/111.jpg" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Shimmery&#39;s Blog</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Chem is try!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/">
+                                <span class="chip bg-color">回忆录</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/" class="post-category">
+                                回忆录
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-02-27
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-04-16
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.7k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    12 分
+                </div>
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>谨以此文纪念那段时光。</p>
+<a id="more"></a>
+
+<h1 id="Chem-is-try"><a href="#Chem-is-try" class="headerlink" title="Chem is try!"></a>Chem is try!</h1><p>谈起chemistry，似乎很多知识已经模模糊糊记不清楚了，无机、有机、分析、物化、结构…许多记忆碎片仍时常浮现。偶然间整理书籍时候又看到了当年的各种笔记，许许多多的草稿纸（好多有机画箭头推机理，雾化冗长的计算过程ps当时很多模拟题雾化出的真丧心病狂 用卡西欧都算吐了），想想趁着还没忘完来写写回忆录，纪念伴随青春的chemistry(当年:有了化学还要什么女朋友!)。</p>
+<h2 id="初识"><a href="#初识" class="headerlink" title="初识"></a>初识</h2><blockquote>
+<p>如果明知这是一场重伤害 你会不会来</p>
+</blockquote>
+<p>咱出身于没有任何竞赛氛围的高中，初三暑假闲着无聊想学NOIP，也买了几本书什么《算法竞赛入门经典》啊，没怎么学过C就抱着C with STL啃(现在想想简直了)，随便学了几个月就因为学校没有这种组织和氛围就放弃了。之后正常学习着文化课，感觉化学挺有意思（可能只是白给考的分高而已，就去逼乎上了解了化学竞赛，逛了逛贴吧，加了画图群（画图算是对我帮助引路最大的了），买下了《无机化学》第四版，也就是所谓的蓝皮（听说现在都更到第五版了，虽然这本书错误是真的多…也算是买的第一本化学书，当年蓝皮和大本应该算是标配。蓝皮大致过了一遍，感觉并没有什么清晰的认知，之后便开始啃《基础有机化学》第四版（上册），记得当时刚刚出巨本的习题解析。最开始自学巨本是真的有点难懂，记得当时看立体化学一脸懵，于是就跳到了加成反应那一章，当初做的笔记还仅仅是草草抄书…</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7o5T.png" alt="高一时候最初的有机笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p77PU.png" alt="高一时候最初的有机笔记"></p>
+<p>单纯的这样看书抄书感觉并没有记住太多，之后我便看起了Art(《The Art of Writing Reasonable Organic Reaction Mechanisms》)，逐渐对推电子有了认知，学着一步步推写机理，找亲电亲核位点，也慢慢的知道为什么这步只能进攻这个位点而不是另一个。于是又积累了一本Art的笔记..(也是类似于抄书)</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7b24.png" alt="Art笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7HGF.png" alt="Art笔记"></p>
+<p>高一下学期报了个培训，听德爷（张祖德教授）讲无机化学，姚子鹏教授讲有机化学，感觉也学到了许多知识。还记得有次停电了姚子鹏教授在跟我们讲这几个世纪来化学诺奖的成就…当时德爷还向我们极力宣传科大，说上海不是搞科研的地方，要想真搞科研还得来合肥还得来科大2333，还举了他儿子的例子。32届国初的日子越来越近，当时沉迷于有机无法自拔，但是自己对有机又没有一个系统的认知，于是便报了质心的有机课，暑假疯狂补录播（真的是最努力的时候..一天甚至能学14个小时），没错这已经是第三本满满当当的有机笔记了…这个时候才算真正入门了有机化学，也算是搞懂了当年一直懵的立体化学部分（只是基础part。当时听阿光老师的课也算是同化了中英mixture哈哈哈。</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7IaV.png" alt="质心有机笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7qxJ.png" alt="质心有机笔记"></p>
+<p>在高一的暑假，先是参加了科大组织的省化学会培训（当时是德爷、罗时玮教授、徐鑫教授、江万权教授），之后很有幸参加了p大组织的活动，第一次去北京，第一次去pku，第一次感受大学的课堂。一个人漫游未名湖，是真的美呐。（看来是第一次也是最后一次了 </p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7XrR.png" alt="pku"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7xVx.png" alt="未名湖"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7jq1.png" alt="未名湖"></p>
+<p>之后又开始备战国初，当时还是比较沉迷有机，一直没怎么顾无机，在国初考前的几天做了套Xcho，大概就四十多分的样子，感觉有机做的勉强还行，无机实在太惨不忍睹了，才知道无机的占比是大头的，也只能这样去考了国初。</p>
+<h2 id="迷茫与奋战"><a href="#迷茫与奋战" class="headerlink" title="迷茫与奋战"></a>迷茫与奋战</h2><blockquote>
+<p>曾经迷茫 最终却 找回方向 曾被挫败 却更顽强</p>
+</blockquote>
+<p>2018.9.2 在科大五教考了第一次国初，考的也是相当差，当时有机比较白给，得分比无机高很多，无机部分就很惨淡，记得当时还考了个德爷讲过的P4O18，无机也成环2333。第一次国初仅仅考了三十多分，划水拿了个省二。顺便翻到了当时的书单：</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7OM9.png" alt="书单"></p>
+<p>反思第一次国初的失败，痛定思痛决定好好学习无机。便从《普通化学原理》开始，认真的看了一遍普化，做了《无机化学例题与习题》这一整本书（不过之后听说普化课后习题似乎更好.. 也算加强巩固了无机基础，还翻到了当时的一些活页笔记。</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6p7za6.png" alt="无机"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHCGD.png" alt="无机"></p>
+<p>之后因为生病住院耽搁了一阵子，印象比较深的是住院时候还在看巨本下册2333，也是这个时候直接申请停课了，全身心投入化学的学习。（虽然我知道班里有很多老师看不惯我，功利的认为没啥用，但是就随他们说去，无知者无罪。差不多看完普化，我又开始从头看德爷的《无机化学》，感觉德爷那本书元素部分整理的挺好，顺便结合《普通无机化学》（pku的）这本书做了一个元素笔记，也是在这个时候，刷完了胡波题（印象中是五十多套..真的蛮多，脑洞也是真的大啊。</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pH9PO.png" alt="元素笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHPRe.png" alt="元素笔记"></p>
+<p>认真过完一遍元素，感觉结构方面挺有意思，这个时候我的晶体啊配合物啊这方面的基础还比较薄弱，我就看了《中级无机化学》（pku那本，也是相当不错的书，对配合物以及一些cluster的讲解蛮好的。顺带着看了《结构化学基础》除了衍射啊空间群啊那些(之后才看)和《高等无机结构化学》，被结构的魅力深深吸引..（想起当年的四大晶胞ssfd 之后接着看了裴sir的《中级有机化学》，阿b还有配套的课，印象中还有裴sir儿子的梗hhh 以及 陆国元教授的《有机反应与有机合成》（这本书强推 虽然没有键线式真的很烦 不过内容真不错 分类也很棒 也大概是这个时候看了第三遍巨本，对有机的认知更清晰了，做了福山A、B组题，有机也算走上正道了。乘胜追击又开了《分析化学》，咱仍记得当年被滴定终点误差，副反应系数支配的恐惧…</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHSIK.png" alt="分析"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHixH.png" alt="终点误差"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHkMd.png" alt="终点误差"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHAsA.png" alt="副反应系数"></p>
+<p>高二“寒假”（停课了就没有什么寒暑假了 的时候又去了趟培训，听了孙延波教授（研钵真的有意思2333好多段子好多梗 和曹居东教授（虽然讲的难度比较低，偏向于基础，不过讲课还是蛮好的，之前惊闻老爷子去世，祝安好）的课。</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHKJS.png" alt="研钵的课"></p>
+<h2 id="“权贵”"><a href="#“权贵”" class="headerlink" title="“权贵”"></a>“权贵”</h2><blockquote>
+<p>比鬼更可怕的是人心</p>
+</blockquote>
+<p>2019.2.13 著名的<strong>213事件</strong>，某无良记者的恶心操作以及某部的恶心措施让人发指。各种所谓解剖就能上北清的无良微博传遍了天，很多又酸又没文化的家长纷纷附和，一口一个都是黑幕，不禁让人觉得可笑又可恨。不过想想，对于没有文化没有家人的这种人，也只配在虚拟的匿名的网络空间举起键盘瞎BB几句了。</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHZZt.png" alt="权贵?"></p>
+<p>那时候不断传来竞赛要变天的消息，自主招生或只降20分。圈里许多同学想要退竞，早点回到高考或许还能考上更好的学校。这个时候咱已经不在乎那么多，能让我坚持下去的不是降分，不是能不能上一个好大学，而是学化学的快乐，对化学的热爱。</p>
+<h2 id="坚定地挑战着未知"><a href="#坚定地挑战着未知" class="headerlink" title="坚定地挑战着未知"></a>坚定地挑战着未知</h2><blockquote>
+<p>只因奔跑才不会彷徨 念念不忘才会有回响</p>
+</blockquote>
+<p>感觉这时候基础方面已经可以了，开始挑战fxc《物理化学》。我们仍未知道那天物化题的答案：迭代算到吐，听说得用两个卡西欧xd</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pbeX9.png" alt="我们仍未知道那天物化题的答案"></p>
+<p>平衡态假设，稳态近似，MaxWell’s RelationShip，化学势，偏摩尔量，摩尔电导率…雾化虐我千百遍，我待雾化如初恋）大雾</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHEqI.png" alt="雾化笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHmIf.png" alt="雾化"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHedP.png" alt="雾化"></p>
+<p>当时听说咱皖省选雾化考的比较难，认真磕雾化磕了好一会儿，把课后题刷的差不多了再找点模拟题做做，巩固了下雾化。</p>
+<p>这时候做的题还是偏少，看了很多很多书（也不知道当时看书怎么这么有毅力..天天晚上到三四点才睡觉 偶尔做了几套模拟题，感觉元素啊好多都是gw默写题，这时候感觉仅靠普无和德爷那本无机的元素知识是不太够了，在三月份左右的时候，花了差不多大半个月时间把《元素化学》gw三册认真的来了一遍，挺多有意思的结构，现在还记得Sn6O4（OH）4的结构，以及Cr≡S≡Cr这样的S六配位的有意思的例子。gw都看了，无丛还远吗?虽然很多学长都并不推荐看无从，觉得性价比低，不过当时的我更喜欢这种享受感，对未知的探索，见识更多更有趣的元素知识。差不多花了将近两个多月把《无机化学丛书》第1~10卷看了一遍，结合了gw做了一份我觉得相当棒的元素笔记。</p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHui8.png" alt="元素笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHQzQ.png" alt="元素笔记"></p>
+<p><img src="https://s3.ax1x.com/2021/02/27/6pHMRg.png" alt="元素笔记"></p>
+<p>花了很长一段时间在无机和结构上，我又觉得有机有点少了，五一的时候又报了个培训，听了碘神的课，还记得开车的sytx规则，真的能记十年23333。这个时候便开始看《有机合成切断法》和《有机合成:策略与控制》,以及每天看几个人名《有机人名反应-机理与应用》以及《有机合成中命名反应的战略性应用》。Review福山题，又重新温习了一遍中有和第四遍巨本。感觉每次看巨本都是不一样的收获和感受。与此同时看了《Inorganic Chemistry》,这本书的配图真的好看啊..国外书好确实不是吹的。</p>
+<p>差点忘了，当时《Organic Chemistry》by clayden也是相当的火，听说是裴sir推的书))，我也果断买来看了下比较核心的章节，有些解释的思路也是比较新，比如说H-为什么一般不做Nu:啊等等，u1s1英文书啃起来刚开始还是比较难的，不过很多专业词汇都眼熟了就比较好了，当时我还拿了个小本本来背x熟悉专业词汇2333，搞的跟高中嘤语一样还背单词呢。</p>
+<h2 id="题海"><a href="#题海" class="headerlink" title="题海"></a>题海</h2><blockquote>
+<p>时间在偏移 扑空的梦想继续 不需要什么邀请</p>
+<p>答不上原因 看着发光的自己 嘴角逐渐弯起</p>
+</blockquote>
+<p>差不多到了五六月份，离第33届国初也就三四个月了，这个时候书已经看的很多很多了，知识面也比较丰富，对化学也有一个比较清楚的认知。便开始了做题，刚开始做模拟题时候也就只能做到五六十分的样子，总是有些套路不太熟悉。指望着做题来巩固知识，这段时间也算是最功利的时候吧2333。差不多一天三套题左右，正常一个多小时就做完了，看了gw无丛基本上就很少有做不出来的元素题了..除非脑洞特别大。主要有机方面有的模拟题还是挺难想的，想起当年也被杂环支配过。。甚至想去看看《杂环化学》。差不多做了个百来套题，什么画图题啊，Xcho，Gcho，KCho，Chemy，wmh小班题等等都做了，基本上也能稳定在70-80这个样子，偶尔也能上80+甚至90+，那个时候真是知识巅峰了Orz。</p>
+<h2 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h2><blockquote>
+<p>因为或许 下个路口仍是同样的结局 不存在 刹那的奇迹</p>
+</blockquote>
+<p>第33届国初，心态、基础重视不够等因素导致考的很差很差，最终也是就此退役，回归高考。加上某育部羟基计划的雪上加霜，整个半年时间大概是在崩溃的状态下度过的。最终高考也如同竞赛一样，意外重重，也只是上了一个没听说过名字的211。</p>
+<h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><blockquote>
+<p>在熟悉而又陌生的路上不怯场</p>
+</blockquote>
+<p>退役后还是有很多人问我后不后悔啊把青春都投入在了化学上，因为一些因素我现在学的方向是Java后端开发，可以说是跟化学毫不相干了，当年学的那么多的化学方面的知识，构建起的整个体系和完整的认知那岂不是都白费了吗？我觉得并非如此。学化学给我带来的不仅是那段时光的快乐，更是自学能力的提升。</p>
+<p>比如说现在学习后端，基本上也是靠自学，寒假两个月把JavaSE,MySQL,JDBC,html,css,JavaScript前端三件套基础给搞的差不多，也得多亏学化学时候自学能力的提升，这是受益终生的。</p>
+<p>那段学化学的时光，让我建立了对一门基础科学完整的认知，有幸窥探了其面貌。也无比敬仰着继续坚持学基础科学以及医学的同学们，祖国的强大少不了基础科学的建设和基底，总是要有人去建设。</p>
+<p>谨以此文纪念那段时光。</p>
+<p>最后分享下部分笔记(虽然基本上都在画图群里发过了)</p>
+<p>元素笔记:链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/17RiOHPSmUpW2U_Eg6t5D8g">https://pan.baidu.com/s/17RiOHPSmUpW2U_Eg6t5D8g</a><br>提取码：9vfh </p>
+<p>雾化笔记:链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1QIkvhUzjO7UW57vzWKYztQ">https://pan.baidu.com/s/1QIkvhUzjO7UW57vzWKYztQ</a><br>提取码：fsq5 </p>
+<p>结构笔记:链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Ru6doZgTa4BoJLB5c858Jw">https://pan.baidu.com/s/1Ru6doZgTa4BoJLB5c858Jw</a><br>提取码：2m6b </p>
+<p>分析笔记:链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Hk4KzW1DFVSgR95D_9c-Nw">https://pan.baidu.com/s/1Hk4KzW1DFVSgR95D_9c-Nw</a><br>提取码：b8jo </p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Shimmery</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://example.com/2021/02/27/Chem%20is%20try!/">http://example.com/2021/02/27/Chem%20is%20try!/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Shimmery</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/">
+                                    <span class="chip bg-color">回忆录</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: '1hpuQXh11PWgEVaL5jFAaJ3j-gzGzoHsz',
+        appKey: 'bL0fL33HipSswvMFy1gbex3q',
+        notify: 'true' === 'true',
+        verify: 'true' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/03/07/Java%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6%E4%B8%8E%E6%B3%A8%E8%A7%A3/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Java反射机制与注解">
+                        
+                        <span class="card-title">Java反射机制与注解</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            JavaEE框架的核心-Java反射机制与注解
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-07
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%A1%86%E6%9E%B6/" class="post-category">
+                                    框架
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8F%8D%E5%B0%84/">
+                        <span class="chip bg-color">反射</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%A1%86%E6%9E%B6/">
+                        <span class="chip bg-color">框架</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/02/14/MySQL%E7%AC%94%E8%AE%B0/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL笔记">
+                        
+                        <span class="card-title">MySQL笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            MySQL相关知识:SQL语句,增删改查,范式,视图,事务,索引…
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-14
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/DataBase/" class="post-category">
+                                    DataBase
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        <span class="chip bg-color">数据库</span>
+                    </a>
+                    
+                    <a href="/tags/MySQL/">
+                        <span class="chip bg-color">MySQL</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%B4%A2%E5%BC%95/">
+                        <span class="chip bg-color">索引</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/">
+                        <span class="chip bg-color">事务</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('60')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Shimmery&#39;s Blog<br />'
+            + '文章作者: Shimmery<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2021</span>
+            
+            <span id="sitetime"></span>
+            <br/>
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Shimmery</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">48.2k</span>&nbsp;字
+            
+            
+            
+            
+                <span id="busuanzi_container_site_pv" style='display:none'>
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
+                </span>
+            
+            
+                <span id="busuanzi_container_site_uv" style='display:none'>
+                    人次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
+                </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+    <a href="https://github.com/shimmeryy" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:63025407@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=63025407" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 63025407" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/5947247350" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/5947247350" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/mo-tu-31-76" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/mo-tu-31-76" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+<script language=javascript> 
+    function siteTime() { 
+            window.setTimeout("siteTime()", 1000); 
+            var seconds = 1000; 
+            var minutes = seconds * 60; 
+            var hours = minutes * 60; 
+            var days = hours * 24; 
+            var years = days * 365; 
+            var today = new Date(); 
+            var todayYear = today.getFullYear(); 
+            var todayMonth = today.getMonth() + 1; 
+            var todayDate = today.getDate(); 
+            var todayHour = today.getHours(); 
+            var todayMinute = today.getMinutes(); 
+            var todaySecond = today.getSeconds(); 
+            /* 
+            Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳) 
+            year - 作为date对象的年份，为4位年份值 
+            month - 0-11之间的整数，做为date对象的月份 
+            day - 1-31之间的整数，做为date对象的天数 
+            hours - 0(午夜24点)-23之间的整数，做为date对象的小时数 
+            minutes - 0-59之间的整数，做为date对象的分钟数 
+            seconds - 0-59之间的整数，做为date对象的秒数 
+            microseconds - 0-999之间的整数，做为date对象的毫秒数 
+            */ 
+            var t1 = Date.UTC(2021, 01, 15, 00, 00, 00); 
+            //北京时间2018-2-13 00:00:00 
+            var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond); 
+            var diff = t2 - t1; 
+            var diffYears = Math.floor(diff / years); 
+            var diffDays = Math.floor((diff / days) - diffYears * 365); 
+            var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours); 
+            var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes); 
+            var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds); 
+            document.getElementById("sitetime").innerHTML = "本站已勉强运行" +diffYears+" 年 "+diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒"; 
+        }
+            siteTime(); 
+</script>
+
+
+
+
+<script>
+        $(document).ready(function () {
+    
+            var int = setInterval(fixCount, 50);  // 50ms周期检测函数
+            var pvcountOffset = 80000;  // 初始化首次数据
+            var uvcountOffset = 20000;
+    
+            function fixCount() {
+                if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
+                    $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + pvcountOffset);
+                    clearInterval(int);
+                }
+                if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                    $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + uvcountOffset); // 加上初始数据 
+                    clearInterval(int); // 停止检测
+                }
+            }
+        });
+</script>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
