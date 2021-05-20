@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-17T14:08:33.201Z</updated>
+  <updated>2021-05-20T06:40:31.687Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MyBatis</title>
+    <link href="http://example.com/2021/05/20/MyBatis/"/>
+    <id>http://example.com/2021/05/20/MyBatis/</id>
+    <published>2021-05-20T06:34:35.000Z</published>
+    <updated>2021-05-20T06:40:31.687Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MyBatis，一款Java持久化框架。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="框架" scheme="http://example.com/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="框架" scheme="http://example.com/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+    <category term="持久层" scheme="http://example.com/tags/%E6%8C%81%E4%B9%85%E5%B1%82/"/>
+    
+  </entry>
   
   <entry>
     <title>Maven</title>
