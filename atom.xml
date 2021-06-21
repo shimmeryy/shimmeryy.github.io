@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-01T15:35:54.542Z</updated>
+  <updated>2021-06-21T08:18:22.445Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,67 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL高级</title>
+    <link href="http://example.com/2021/06/18/MySQL%E9%AB%98%E7%BA%A7/"/>
+    <id>http://example.com/2021/06/18/MySQL%E9%AB%98%E7%BA%A7/</id>
+    <published>2021-06-18T04:22:35.000Z</published>
+    <updated>2021-06-21T08:18:22.445Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MySQL高级：MySQL体系结构、索引、视图、存储过程、触发器、存储引擎、SQL优化、缓存、锁、日志、具体调优。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DataBase" scheme="http://example.com/categories/DataBase/"/>
+    
+    
+    <category term="MySQL" scheme="http://example.com/tags/MySQL/"/>
+    
+    <category term="数据库" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL索引</title>
+    <link href="http://example.com/2021/06/12/MySQL%E7%B4%A2%E5%BC%95/"/>
+    <id>http://example.com/2021/06/12/MySQL%E7%B4%A2%E5%BC%95/</id>
+    <published>2021-06-12T14:13:28.000Z</published>
+    <updated>2021-06-21T08:19:48.838Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MySQL索引：B+Tree，索引使用及优化&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DataBase" scheme="http://example.com/categories/DataBase/"/>
+    
+    
+    <category term="MySQL" scheme="http://example.com/tags/MySQL/"/>
+    
+    <category term="索引" scheme="http://example.com/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringMVC</title>
+    <link href="http://example.com/2021/06/03/SpringMVC/"/>
+    <id>http://example.com/2021/06/03/SpringMVC/</id>
+    <published>2021-06-03T07:10:53.000Z</published>
+    <updated>2021-06-21T08:15:33.317Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;SpringMVC，提供了构建Web程序的MVC模块。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="框架" scheme="http://example.com/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="框架" scheme="http://example.com/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>代理模式</title>
@@ -132,9 +193,9 @@
     <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -153,9 +214,9 @@
     <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
-    
     <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
     
   </entry>
   
@@ -200,27 +261,23 @@
   </entry>
   
   <entry>
-    <title>MySQL笔记</title>
+    <title>MySQL基础</title>
     <link href="http://example.com/2021/02/14/MySQL%E7%AC%94%E8%AE%B0/"/>
     <id>http://example.com/2021/02/14/MySQL%E7%AC%94%E8%AE%B0/</id>
     <published>2021-02-14T08:55:16.000Z</published>
-    <updated>2021-05-21T15:35:35.259Z</updated>
+    <updated>2021-06-21T08:21:36.891Z</updated>
     
     
-    <summary type="html">&lt;p&gt;MySQL相关知识:SQL语句,增删改查,范式,视图,事务,索引…&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;MySQL基础：SQL语法，CRUD，约束，多表设计，范式，事务管理。&lt;/p&gt;</summary>
     
     
     
     <category term="DataBase" scheme="http://example.com/categories/DataBase/"/>
     
     
-    <category term="数据库" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="MySQL" scheme="http://example.com/tags/MySQL/"/>
     
-    <category term="索引" scheme="http://example.com/tags/%E7%B4%A2%E5%BC%95/"/>
-    
-    <category term="事务" scheme="http://example.com/tags/%E4%BA%8B%E5%8A%A1/"/>
+    <category term="数据库" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
