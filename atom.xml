@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-21T08:18:22.445Z</updated>
+  <updated>2021-06-27T08:01:19.012Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Swagger3.0</title>
+    <link href="http://example.com/2021/06/27/Swagger/"/>
+    <id>http://example.com/2021/06/27/Swagger/</id>
+    <published>2021-06-27T07:56:52.000Z</published>
+    <updated>2021-06-27T08:01:19.012Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Swagger3.0，自动生成API文档的框架，与SpringBoot集成使用。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="框架" scheme="http://example.com/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="框架" scheme="http://example.com/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>MySQL高级</title>
@@ -55,6 +74,25 @@
     <category term="MySQL" scheme="http://example.com/tags/MySQL/"/>
     
     <category term="索引" scheme="http://example.com/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot</title>
+    <link href="http://example.com/2021/06/12/SpringBoot/"/>
+    <id>http://example.com/2021/06/12/SpringBoot/</id>
+    <published>2021-06-12T06:05:28.000Z</published>
+    <updated>2021-06-27T07:55:56.679Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;SpringBoot，最流行的后端开发框架，约定大于配置，大大简化了繁琐的开发配置。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="框架" scheme="http://example.com/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="框架" scheme="http://example.com/tags/%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
