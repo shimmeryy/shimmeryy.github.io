@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-29T11:13:01.919Z</updated>
+  <updated>2021-07-31T10:33:41.123Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Redis基础</title>
+    <link href="http://example.com/2021/07/31/Redis%E5%9F%BA%E7%A1%80/"/>
+    <id>http://example.com/2021/07/31/Redis%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-07-31T10:29:53.000Z</published>
+    <updated>2021-07-31T10:33:41.123Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Redis概述，单线程多线程模式，五大基本数据类型，三大特殊数据类型，Redis事务，Jedis，SpringBoot集成Redis。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Database" scheme="http://example.com/categories/Database/"/>
+    
+    
+    <category term="cache" scheme="http://example.com/tags/cache/"/>
+    
+    <category term="NoSQL" scheme="http://example.com/tags/NoSQL/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机网络</title>
