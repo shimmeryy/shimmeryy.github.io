@@ -288,9 +288,9 @@
     <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
-    
     <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
     
   </entry>
   
@@ -309,9 +309,9 @@
     <category term="前端基础" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="HTML" scheme="http://example.com/tags/HTML/"/>
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
